@@ -16,13 +16,13 @@ group_by = NULL,
 alpha_show_p = TRUE
 )
 ### Parameters (what each file/option does)
-● feature_table: Tab-delimited counts per ASV/OTU by sample. Sample IDs must match the metadata.
-● taxonomy_file: Taxonomic annotations for features. Required for abundance plots; not strictly needed for alpha, but safe to include.
-● metadata_file: Tab-delimited sample metadata. Must contain the column named in group_by (e.g., “Group”).
-● tree_file: Newick tree. Used for phylogenetic metrics if enabled; optional for the current alpha run.
-● output_dir: Folder where figures, logs, and Excel workbooks are written.
-● plot_types: Which analyses to produce. You’re using "alpha" here.
-● group_by: Metadata column that defines groups for plotting and statistics. 
+1. feature_table: Tab-delimited counts per ASV/OTU by sample. Sample IDs must match the metadata.
+2. taxonomy_file: Taxonomic annotations for features. Required for abundance plots; not strictly needed for alpha, but safe to include.
+3. metadata_file: Tab-delimited sample metadata. Must contain the column named in group_by (e.g., “Group”).
+4. tree_file: Newick tree. Used for phylogenetic metrics if enabled; optional for the current alpha run.
+5. output_dir: Folder where figures, logs, and Excel workbooks are written.
+6. plot_types: Which analyses to produce. You’re using "alpha" here.
+7. group_by: Metadata column that defines groups for plotting and statistics. 
 
 ### Expected outputs (for plot_types = "alpha")
 ● Figures (TIFF)
